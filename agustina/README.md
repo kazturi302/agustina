@@ -13,7 +13,7 @@ yarn install
 yarn build
 ```
 
-# How to run with Hosting
+# How to Hosting your Dapp
 
 You can use Vercel or Netlify to run this DAPP
 
