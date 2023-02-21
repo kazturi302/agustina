@@ -113,7 +113,7 @@
 				<span class="w-3 h-3 rounded-full bg-blue-400"></span>
 				<span class="w-3 h-3 rounded-full bg-yellow-400"></span>
 			</div>
-			<div class="bg-black-100 border-t-0 rounded-b-lg w-full p-6">
+			<div class="bg-brown-100 border-t-0 rounded-b-lg w-full p-6">
 					<div class="animate__animated animate__fadeIn animate__delay-2s">
 						    <div class="mb-10 text-center">
 							<span class="animate__animated animate__fadeIn animate__delay-2s inline-block py-1.5 px-2.5 leading-none text-center whitespace-nowrap align-baseline font-bold bg-accent text-white rounded">Inery Task 5</span>
