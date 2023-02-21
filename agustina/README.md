@@ -16,9 +16,8 @@ yarn build
 # How to run with Hosting
 
 You can use Vercel or Netlify to run this DAPP
+
 I use Vercel
 
 https://agustina.vercel.app/
-#� �a�g�u�s�t�i�n�a�
-�
-�
+
