@@ -98,8 +98,8 @@
 				<span class="w-3 h-3 rounded-full bg-black-400"></span>
 				<span class="w-3 h-3 rounded-full bg-black-400"></span>
 			</div>
-			<div class="bg-brown-100 border-t-0 rounded-b-lg w-full p-6">
-				<div class="text-6xl animate__animated animate__fadeIn animate__delay-1s font-bold p-6 text-plate-700">
+			<div class="bg-red-100 border-t-0 rounded-b-lg w-full p-6">
+				<div class="text-8xl animate__animated animate__fadeIn animate__delay-1s font-bold p-7 text-plate-700">
 					Dapp Transaction Agustina
 				</div>
 			</div>
