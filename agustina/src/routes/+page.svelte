@@ -99,7 +99,7 @@
 				<span class="w-3 h-3 rounded-full bg-black-400"></span>
 			</div>
 			<div class="bg-red-100 border-t-0 rounded-b-lg w-full p-6">
-				<div class="text-8xl animate__animated animate__fadeIn animate__delay-1s font-bold p-7 text-plate-700">
+				<div class="text-7xl animate__animated animate__fadeIn animate__delay-1s font-bold p-7 text-plate-700">
 					Dapp Transaction Agustina
 				</div>
 			</div>
@@ -116,7 +116,7 @@
 			<div class="bg-brown-100 border-t-0 rounded-b-lg w-full p-6">
 					<div class="animate__animated animate__fadeIn animate__delay-2s">
 						    <div class="mb-10 text-center">
-							<span class="animate__animated animate__fadeIn animate__delay-2s inline-block py-1.5 px-2.5 leading-none text-center whitespace-nowrap align-baseline font-bold bg-red text-white rounded">Inery Task 5 Simple Dapp</span>
+							<span class="animate__animated animate__fadeIn animate__delay-2s inline-block py-1.5 px-2.5 leading-none text-center whitespace-nowrap align-baseline font-bold bg-red text-green rounded">Simple Dapp</span>
 							<div class="mt-4 animate__animated animate__fadeIn animate__delay-2s bg-brown-300 rounded-lg py-5 px-6 mb-4 text-base text-white-800 mb-3" role="alert">Click button below to begin CRUD Transaction.</div>
 						    </div>
 						    <div class="grid animate__animated animate__fadeIn animate__delay-2s grid-cols-4 gap-4">
