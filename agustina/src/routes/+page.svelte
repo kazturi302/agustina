@@ -86,7 +86,7 @@
 </script>
 
 <svelte:head>
-    <title>Example Dapp agustina</title>
+    <title>Dapp Transaction agustina</title>
 </svelte:head>
 
 <div class="container  mx-auto min-h-screen px-20 pb-20 pt-20">
@@ -94,13 +94,13 @@
 	<div class="animate__animated animate__fadeIn animate__delay-1s mb-10 text-center">
 		<div class="w-full">
 			<div class="w-full h-11 rounded-t-lg bg-brown-200 flex justify-start items-center space-x-1.5 px-3">
-				<span class="w-3 h-3 rounded-full bg-green-400"></span>
-				<span class="w-3 h-3 rounded-full bg-blue-400"></span>
-				<span class="w-3 h-3 rounded-full bg-yellow-400"></span>
+				<span class="w-3 h-3 rounded-full bg-black-400"></span>
+				<span class="w-3 h-3 rounded-full bg-black-400"></span>
+				<span class="w-3 h-3 rounded-full bg-black-400"></span>
 			</div>
 			<div class="bg-brown-100 border-t-0 rounded-b-lg w-full p-6">
 				<div class="text-6xl animate__animated animate__fadeIn animate__delay-1s font-bold p-6 text-plate-700">
-					Example Dapp By Agustina
+					Dapp Transaction Agustina
 				</div>
 			</div>
 		</div>
@@ -109,9 +109,9 @@
 	<div class="animate__animated animate__fadeIn animate__delay-2s mb-10">
 		<div class="w-full">
 			<div class="w-full h-11 rounded-t-lg bg-brown-200 flex justify-start items-center space-x-1.5 px-3">
-				<span class="w-3 h-3 rounded-full bg-green-400"></span>
-				<span class="w-3 h-3 rounded-full bg-blue-400"></span>
-				<span class="w-3 h-3 rounded-full bg-yellow-400"></span>
+				<span class="w-3 h-3 rounded-full bg-black-400"></span>
+				<span class="w-3 h-3 rounded-full bg-black-400"></span>
+				<span class="w-3 h-3 rounded-full bg-black-400"></span>
 			</div>
 			<div class="bg-brown-100 border-t-0 rounded-b-lg w-full p-6">
 					<div class="animate__animated animate__fadeIn animate__delay-2s">
