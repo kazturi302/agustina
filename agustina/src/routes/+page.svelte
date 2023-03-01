@@ -116,8 +116,8 @@
 			<div class="bg-brown-100 border-t-0 rounded-b-lg w-full p-6">
 					<div class="animate__animated animate__fadeIn animate__delay-2s">
 						    <div class="mb-10 text-center">
-							<span class="animate__animated animate__fadeIn animate__delay-2s inline-block py-1.5 px-2.5 leading-none text-center whitespace-nowrap align-baseline font-bold bg-accent text-white rounded">Inery Task 5 Simple Dapp</span>
-							<div class="mt-4 animate__animated animate__fadeIn animate__delay-2s bg-brown-300 rounded-lg py-5 px-6 mb-4 text-base text-gray-800 mb-3" role="alert">Click button below to begin CRUD Transaction.</div>
+							<span class="animate__animated animate__fadeIn animate__delay-2s inline-block py-1.5 px-2.5 leading-none text-center whitespace-nowrap align-baseline font-bold bg-red text-white rounded">Inery Task 5 Simple Dapp</span>
+							<div class="mt-4 animate__animated animate__fadeIn animate__delay-2s bg-brown-300 rounded-lg py-5 px-6 mb-4 text-base text-white-800 mb-3" role="alert">Click button below to begin CRUD Transaction.</div>
 						    </div>
 						    <div class="grid animate__animated animate__fadeIn animate__delay-2s grid-cols-4 gap-4">
 							<label for="modal-create" class="btn btn-accent btn-outline">Create</label>
@@ -129,7 +129,7 @@
 						    <div class="divider"></div>
 
 						    <!-- detailed -->
-						    <div class="mockup-code bg-accent text-accent-content animate__animated animate__fadeIn animate__delay-2s">
+						    <div class="mockup-code bg-gray text-accent-content animate__animated animate__fadeIn animate__delay-2s">
 							{#await $api_store}
 							    <pre data-prefix="$"><code>Sending transaction...</code></pre>    
 							{:then api} 
