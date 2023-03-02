@@ -94,7 +94,7 @@
         <div class="text-4xl  animate__animated animate__fadeIn animate__delay-1s text-red-400 font-bold ">
         AGUSTINA CRUD DAPPS
         </div>
-        <div class="mt-4  animate__animated animate__fadeIn animate__delay-1s text-white ">Please use the button below </div>
+        <div class="mt-4  animate__animated animate__fadeIn animate__delay-1s text-green ">Please use the button below </div>
     </div>
 
     <div class="grid animate__animated animate__fadeIn animate__delay-2s grid-cols-4 gap-4">
