@@ -3,17 +3,12 @@
     import Modal from "$lib/components/Modal.svelte";
     import { api_store } from "$lib/store";
     let api_result: {} = {res: "Please click button above"}
-
     let create_id: number
     let create_data: string
-
     let read_id: number
-
     let update_id: number
     let update_data: string
-
     let destroy_id: number
-
     async function create(){
         
         api_store.set(
@@ -32,7 +27,6 @@
             })
         )
     }
-
     async function read(){
         api_store.set(
             fetch("/api/read", {
@@ -48,7 +42,6 @@
             })
         )
     }
-
     async function update(){
         api_store.set(
             fetch("/api/update", {
@@ -65,7 +58,6 @@
             })
         )
     }
-
     async function destroy(){
         api_store.set(
             fetch("/api/destroy", {
@@ -80,125 +72,73 @@
                 return res.json()
             })
         )
-
     }
-
 </script>
 
 <svelte:head>
-    <title>Dapp Transaction agustina</title>
+    <title>agustina Crud Dapp</title>
 </svelte:head>
 
 <div class="container  mx-auto min-h-screen px-20 pb-20 pt-20">
-	<!-- box title -->
-	<div class="animate__animated animate__fadeIn animate__delay-1s mb-10 text-center">
-		<div class="w-full">
-			<div class="w-full h-11 rounded-t-lg bg-brown-200 flex justify-start items-center space-x-1.5 px-3">
-				<span class="w-3 h-3 rounded-full bg-black-400"></span>
-				<span class="w-3 h-3 rounded-full bg-black-400"></span>
-				<span class="w-3 h-3 rounded-full bg-black-400"></span>
-			</div>
-			<div class="bg-red-100 border-t-0 rounded-b-lg w-full p-6">
-				<div class="text-7xl animate__animated animate__fadeIn animate__delay-1s font-bold p-7 text-plate-700">
-					Dapp Transaction Agustina
-				</div>
-			</div>
-		</div>
-	</div>
-	<!-- box app -->
-	<div class="animate__animated animate__fadeIn animate__delay-2s mb-10">
-		<div class="w-full">
-			<div class="w-full h-11 rounded-t-lg bg-brown-200 flex justify-start items-center space-x-1.5 px-3">
-				<span class="w-3 h-3 rounded-full bg-black-400"></span>
-				<span class="w-3 h-3 rounded-full bg-black-400"></span>
-				<span class="w-3 h-3 rounded-full bg-black-400"></span>
-			</div>
-			<div class="bg-brown-100 border-t-0 rounded-b-lg w-full p-6">
-					<div class="animate__animated animate__fadeIn animate__delay-2s">
-						    <div class="mb-10 text-center">
-							<span class="animate__animated animate__fadeIn animate__delay-2s inline-block py-1.5 px-2.5 leading-none text-center whitespace-nowrap align-baseline font-bold bg-red text-green rounded">Simple Dapp</span>
-							<div class="mt-4 animate__animated animate__fadeIn animate__delay-2s bg-brown-300 rounded-lg py-5 px-6 mb-4 text-base text-gold-800 mb-3" role="alert">Click Button Below Start The Transaction.</div>
-						    </div>
-						    <div class="grid animate__animated animate__fadeIn animate__delay-2s grid-cols-4 gap-4">
-							<label for="modal-create" class="btn btn-accent btn-outline">Create</label>
-							<label for="modal-read" class="btn btn-accent btn-outline">Read</label>
-							<label for="modal-update" class="btn btn-accent btn-outline">Update</label>
-							<label for="modal-destroy" class="btn btn-accent btn-outline">Destroy</label>
-						    </div>
+    <div class="flex justify-center">
+        <div on:click={() => goto("https://twitter.com/itilitilan")} class="avatar relative cursor-pointer mb-4">
+            <div class="w-8 h-8 rounded-full absolute z-20 bottom-0 right-0">
+                <img src="https://i.ibb.co/WgxJrZh/icons8-github-94.png" />
+            </div>
+            <div class="w-24 mask mask-square bordered">
+              <img src="https://i.ibb.co/ZGpxwfx/icons8-female-user-94.png" />
+            </div>
+          </div>
+    </div>
+    <div class="mb-10 text-center">
+        <div class="text-4xl  animate__animated animate__fadeIn animate__delay-1s text-green-400 font-bold ">
+        AGUSTINA CRUD DAPPS INERY
+        </div>
+        <div class="mt-4  animate__animated animate__fadeIn animate__delay-1s text-black ">Please use the button below to execute a simple transaction with Inery Blockchain <br> And after the transaction is complete, the log will be shown below</div>
+    </div>
 
-						    <div class="divider"></div>
+    <div class="grid animate__animated animate__fadeIn animate__delay-2s grid-cols-4 gap-4">
+        <label for="modal-create" class="btn bg-purple text-brown-500  btn-error">Build</label>
+        <label for="modal-read" class="btn bg-purple text-brown-500 btn-error">View</label>
+        <label for="modal-update" class="btn bg-purple text-brown-500 btn-error">Update</label>
+        <label for="modal-destroy" class="btn bg-purple text-brown-500 btn-error">Delete</label>
+    </div>
+    
+    <div class="divider"></div>
 
-						    <!-- detailed -->
-						    <div class="mockup-code bg-gray text-accent-content animate__animated animate__fadeIn animate__delay-2s">
-							{#await $api_store}
-							    <pre data-prefix="$"><code>Sending transaction...</code></pre>    
-							{:then api} 
-							    <pre data-prefix="$"><code>{JSON.stringify(api, null, 4)}</code></pre>    
-							{/await}
-						    </div>
-					</div>
-			</div>
-		</div>
-	</div>
-
+    <!-- detailed -->
+    <div class="mockup-code  animate__animated animate__fadeIn animate__delay-3s">
+        {#await $api_store}
+            <pre data-prefix="$"><code>Please wait..</code></pre>    
+        {:then api} 
+            <pre data-prefix="$"><code>{JSON.stringify(api, null, 4)}</code></pre>    
+        {/await}
+    </div>
 </div>
 
-<Modal modal_id="modal-create" modal_title="Create Record" on:click={() => create()}>
+<Modal modal_id="modal-create" modal_title="Build New Record on Inery" on:click={() => create()}>
     <div slot="body" class="flex flex-col gap-4">
-	<label class="label">
-		<span class="label-text">Input ID :</span>
-  	</label>
-        	<input bind:value={create_id} type="text" placeholder="ID" class="input input-bordered input-accent w-full" />
-	<label class="label">
-		<span class="label-text">Account :</span>
-  	</label>
-        	<input type="text" placeholder="agustina" class="input input-bordered input-accent w-full" disabled />
-	<label class="label">
-	    <span class="label-text-alt">This is owner account.</span>
-  	</label>
-	<label class="label">
-	    <span class="label-text">Memo :</span>
-  	</label>
-        	<textarea bind:value={create_data} class="textarea textarea-bordered textarea-accent w-full" placeholder="Memo"></textarea>
+        <input bind:value={create_id} type="text" placeholder="Type ID" class="input input-bordered w-full max-w-xs" />
+        <input type="text" placeholder="agustina" class="input input-bordered w-full max-w-xs" disabled />
+        <textarea bind:value={create_data} class="textarea textarea-bordered w-full" placeholder="Type the details"></textarea>
     </div>
 </Modal>
 
-<Modal modal_id="modal-read" modal_title="Read Record" on:click={() => read()}>
+<Modal modal_id="modal-read" modal_title="View Record by ID" on:click={() => read()}>
     <div slot="body" class="flex flex-col gap-4">
-	<label class="label">
-		<span class="label-text">ID :</span>
-	</label>
-		<input bind:value={read_id} type="text" placeholder="ID" class="input input-bordered input-accent w-full" />
-	<label class="label">
-	    <span class="label-text-alt">Enter the ID according to the previous transaction.</span>
-  	</label>
+        <input bind:value={read_id} type="text" placeholder="Type ID" class="input input-bordered w-full max-w-xs" />
     </div>
 </Modal>
 
-<Modal modal_id="modal-update" modal_title="Update Record" on:click={() => update()}>
+<Modal modal_id="modal-update" modal_title="Update Record by ID" on:click={() => update()}>
     <div slot="body" class="flex flex-col gap-4">
-	<label class="label">
-		<span class="label-text">ID :</span>
-	</label>
-        <input bind:value={update_id} type="text" placeholder="ID" class="input input-bordered input-accent w-full" />
-	<label class="label">
-		<span class="label-text">Update Data :</span>
-	</label>
-        <textarea bind:value={update_data} class="textarea textarea-bordered textarea-accent w-full" placeholder="Update memo data"></textarea>
-	 <label class="label">
-		<span class="label-text-alt">This action will change the current data with spesific ID.</span>
-	</label>
+        <input bind:value={update_id} type="text" placeholder="Type ID" class="input input-bordered w-full max-w-xs" />
+        <textarea bind:value={update_data} class="textarea textarea-bordered w-full" placeholder="Type the data..."></textarea>
     </div>
 </Modal>
 
-<Modal modal_id="modal-destroy" modal_title="Destroy Record" on:click={() => destroy()}>
+<Modal modal_id="modal-destroy" modal_title="Delete Record by ID" on:click={() => destroy()}>
     <div slot="body" class="flex flex-col gap-4">
-	<label class="label">
-		<span class="label-text">ID :</span>
-	</label>
-        <input bind:value={destroy_id} type="text" placeholder="ID" class="input input-bordered input-accent w-full" />
-	<label class="label">
-		<span class="label-text-alt">This action will destroy your ID that you created before.</span>
-	</label>
+        <input bind:value={destroy_id} type="text" placeholder="Type ID" class="input input-bordered w-full max-w-xs" />
     </div>
 </Modal>
