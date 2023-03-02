@@ -81,7 +81,7 @@
 
 <div class="container  mx-auto min-h-screen px-20 pb-20 pt-20">
     <div class="flex justify-center">
-        <div on:click={() => goto("https://twitter.com/itilitilan")} class="avatar relative cursor-pointer mb-4">
+        <div on:click={() => goto("https://github.com/kazturi302")} class="avatar relative cursor-pointer mb-4">
             <div class="w-8 h-8 rounded-full absolute z-20 bottom-0 right-0">
                 <img src="https://i.ibb.co/WgxJrZh/icons8-github-94.png" />
             </div>
@@ -94,14 +94,14 @@
         <div class="text-4xl  animate__animated animate__fadeIn animate__delay-1s text-green-400 font-bold ">
         AGUSTINA CRUD DAPPS INERY
         </div>
-        <div class="mt-4  animate__animated animate__fadeIn animate__delay-1s text-black ">Please use the button below to execute a simple transaction with Inery Blockchain <br> And after the transaction is complete, the log will be shown below</div>
+        <div class="mt-4  animate__animated animate__fadeIn animate__delay-1s text-white ">Please use the button below </div>
     </div>
 
     <div class="grid animate__animated animate__fadeIn animate__delay-2s grid-cols-4 gap-4">
-        <label for="modal-create" class="btn bg-purple text-brown-500  btn-error">Build</label>
-        <label for="modal-read" class="btn bg-purple text-brown-500 btn-error">View</label>
-        <label for="modal-update" class="btn bg-purple text-brown-500 btn-error">Update</label>
-        <label for="modal-destroy" class="btn bg-purple text-brown-500 btn-error">Delete</label>
+        <label for="modal-create" class="btn bg-white text-brown-500  btn-error">Build</label>
+        <label for="modal-read" class="btn bg-white text-brown-500 btn-error">View</label>
+        <label for="modal-update" class="btn bg-white text-brown-500 btn-error">Update</label>
+        <label for="modal-destroy" class="btn bg-white text-brown-500 btn-error">Delete</label>
     </div>
     
     <div class="divider"></div>
