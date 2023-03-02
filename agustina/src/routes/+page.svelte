@@ -91,8 +91,8 @@
           </div>
     </div>
     <div class="mb-10 text-center">
-        <div class="text-4xl  animate__animated animate__fadeIn animate__delay-1s text-yellow-400 font-bold ">
-        AGUSTINA CRUD DAPPS INERY
+        <div class="text-4xl  animate__animated animate__fadeIn animate__delay-1s text-gold-400 font-bold ">
+        AGUSTINA CRUD DAPPS
         </div>
         <div class="mt-4  animate__animated animate__fadeIn animate__delay-1s text-white ">Please use the button below </div>
     </div>
