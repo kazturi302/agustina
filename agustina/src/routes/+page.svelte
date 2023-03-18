@@ -97,7 +97,7 @@
         <div class="mt-4  animate__animated animate__fadeIn animate__delay-1s text-green ">Please use the button below </div>
     </div>
 
-    <div class="grid animate__animated animate__fadeIn animate__delay-2s grid-cols-4 gap-4">
+    <div class=".flex-column">
         <label for="modal-create" class="btn bg-white text-brown-500  btn-error">Build</label>
         <label for="modal-read" class="btn bg-white text-brown-500 btn-error">View</label>
         <label for="modal-update" class="btn bg-white text-brown-500 btn-error">Update</label>
