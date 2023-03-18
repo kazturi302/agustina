@@ -101,7 +101,7 @@
         <label for="modal-create" class="btn bg-black text-lime-300 btn-error">Build</label>
         <label for="modal-read" class="btn bg-black text-lime-300 btn-error">View</label>
         <label for="modal-update" class="btn bg-black text-lime-300 btn-error">Update</label>
-        <label for="modal-destroy" class="bg-indigo-500 shadow-lg shadow-indigo-500/50r">Delete</label>
+        <label for="modal-destroy" class="btn bg-black shadow-stone-800/50">Destroy</label>
     </div>
     
     <div class="divider"></div>
