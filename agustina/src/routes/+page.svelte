@@ -94,14 +94,14 @@
         <div class="text-4xl  animate__animated animate__fadeIn animate__delay-1s text-green-100 font-bold ">
         AGUSTINA CRUD DAPPS
         </div>
-        <div class="mt-4  animate__animated animate__fadeIn animate__delay-1s text-green ">Please use the button below </div>
+        <div class="mt-4  animate__animated animate__fadeIn animate__delay-1s text-yellow-300 ">Please use the button below </div>
     </div>
 
     <div class="grid animate__animated animate__fadeIn animate__delay-2s grid-cols-4 gap-4">
-        <label for="modal-create" class="btn bg-black text-rose-200  btn-error">Build</label>
-        <label for="modal-read" class="btn bg-black text-rose-200 btn-error">View</label>
-        <label for="modal-update" class="btn bg-black text-rose-200 btn-error">Update</label>
-        <label for="modal-destroy" class="btn bg-black text-rose-200 btn-error">Delete</label>
+        <label for="modal-create" class="btn bg-black text-lime-300 btn-error">Build</label>
+        <label for="modal-read" class="btn bg-black text-lime-300 btn-error">View</label>
+        <label for="modal-update" class="btn bg-black text-lime-300 btn-error">Update</label>
+        <label for="modal-destroy" class="bg-indigo-500 shadow-lg shadow-indigo-500/50r">Delete</label>
     </div>
     
     <div class="divider"></div>
