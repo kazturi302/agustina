@@ -86,7 +86,7 @@
                 <img src="https://i.ibb.co/WgxJrZh/icons8-github-94.png" />
             </div>
             <div class="w-24 mask mask-square bordered">
-              <img src="https://i.ibb.co/ZGpxwfx/icons8-female-user-94.png" />
+              <img src="https://i.ibb.co/3h5SpQ5/125850502.jpg" />
             </div>
           </div>
     </div>
