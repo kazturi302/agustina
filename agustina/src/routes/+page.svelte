@@ -97,11 +97,11 @@
         <div class="mt-4  animate__animated animate__fadeIn animate__delay-1s text-yellow-300 ">Please use the button below </div>
     </div>
 
-    <div class="grid animate__animated animate__fadeIn animate__delay-2s grid-cols-4 gap-4">
+    <div class="grid animate__animated animate__fadeIn animate__delay-2s grid-rows-4 grid-flow-col gap-4">
         <label for="modal-create" class="btn bg-black text-lime-300 btn-error">Build</label>
         <label for="modal-read" class="btn bg-black text-lime-300 btn-error">View</label>
         <label for="modal-update" class="btn bg-black text-lime-300 btn-error">Update</label>
-        <label for="modal-destroy" class="btn bg-black shadow-stone-800/50">Destroy</label>
+        <label for="modal-destroy" class="btn bg-black text-lime-300 btn-error">Destroy</label>
     </div>
     
     <div class="divider"></div>
