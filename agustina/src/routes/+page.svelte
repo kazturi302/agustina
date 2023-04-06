@@ -117,28 +117,28 @@
 </div>
 
 <Modal modal_id="modal-create" modal_title="Build New Record on Inery" on:click={() => create()}>
-    <div slot="body" class="flex flex-col gap-4">
-        <input bind:value={create_id} type="text" placeholder="Type ID" class="input input-bordered w-full max-w-xs" />
-        <input type="text" placeholder="agustina" class="input input-bordered w-full max-w-xs" disabled />
+    <div slot="body" class="flex flex-col gap-8">
+        <input bind:value={create_id} type="text" placeholder="Type ID" class="input input-bordered w-full max-w-sm" />
+        <input type="text" placeholder="agustina" class="input input-bordered w-full max-w-sm" disabled />
         <textarea bind:value={create_data} class="textarea textarea-bordered w-full" placeholder="Type the details"></textarea>
     </div>
 </Modal>
 
 <Modal modal_id="modal-read" modal_title="View Record by ID" on:click={() => read()}>
-    <div slot="body" class="flex flex-col gap-4">
-        <input bind:value={read_id} type="text" placeholder="Type ID" class="input input-bordered w-full max-w-xs" />
+    <div slot="body" class="flex flex-col gap-8">
+        <input bind:value={read_id} type="text" placeholder="Type ID" class="input input-bordered w-full max-w-sm" />
     </div>
 </Modal>
 
 <Modal modal_id="modal-update" modal_title="Update Record by ID" on:click={() => update()}>
-    <div slot="body" class="flex flex-col gap-4">
-        <input bind:value={update_id} type="text" placeholder="Type ID" class="input input-bordered w-full max-w-xs" />
+    <div slot="body" class="flex flex-col gap-8">
+        <input bind:value={update_id} type="text" placeholder="Type ID" class="input input-bordered w-full max-w-sm" />
         <textarea bind:value={update_data} class="textarea textarea-bordered w-full" placeholder="Type the data..."></textarea>
     </div>
 </Modal>
 
 <Modal modal_id="modal-destroy" modal_title="Delete Record by ID" on:click={() => destroy()}>
-    <div slot="body" class="flex flex-col gap-4">
-        <input bind:value={destroy_id} type="text" placeholder="Type ID" class="input input-bordered w-full max-w-xs" />
+    <div slot="body" class="flex flex-col gap-8">
+        <input bind:value={destroy_id} type="text" placeholder="Type ID" class="input input-bordered w-full max-w-sm" />
     </div>
 </Modal>
